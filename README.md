@@ -2,7 +2,6 @@
 
 A full-stack web app that fetches and displays real-time **Earth imagery** captured by NASA’s **EPIC (Earth Polychromatic Imaging Camera)** onboard the **DSCOVR spacecraft**, positioned at the Earth–Sun Lagrange Point.
 
-![Preview](https://user-images.githubusercontent.com/00000000/preview.png) <!-- optional screenshot -->
 
 ---
 
@@ -18,7 +17,6 @@ A full-stack web app that fetches and displays real-time **Earth imagery** captu
 **Frontend**
 - React  
 - TailwindCSS  
-- Axios  
 
 **Backend**
 - FastAPI  
