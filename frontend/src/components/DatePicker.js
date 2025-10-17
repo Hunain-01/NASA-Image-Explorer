@@ -11,7 +11,7 @@ export default function DatePicker({ onSubmit }) {
     (i + 1).toString().padStart(2, "0")
   );
 
-  // Dynamically get correct day count
+
   const getDaysInMonth = (y, m) => {
     if (!y || !m) return 31;
     const monthIndex = parseInt(m, 10) - 1;
@@ -29,7 +29,6 @@ export default function DatePicker({ onSubmit }) {
       return;
     }
 
-    // Construct proper date string and validate
     const dateStr = `${year}-${month}-${day}`;
     const parsed = new Date(`${year}-${month}-${day}T00:00:00Z`);
     const isGood =
