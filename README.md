@@ -36,7 +36,7 @@ cd NASA-Image-Explorer
 ```
 cd backend
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn main:app 
 ```
 ### 3 Frontend setup
 ```
